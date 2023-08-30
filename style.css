@@ -1,32 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 
-/*Body background and all borders: #eee
-Newspaper background: white*/
-
+/*body styling*/
 
 body {
     background: #eee;
-    font-family: source sans pro;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
+    text-decoration: none;
 }
 
+/*container styling*/
 .newspaper-container {
     width: 700px;
-    margin: 0 auto;
+    margin: 3em auto;
     background: white;
     border-radius: 10px;
-    padding: 1em;
+    padding: 1.0em;
+    box-sizing: border-box;
     box-shadow: 3px 3px 3px 3px #ddd;
 }
 
+/*class = story date*/
+.date {
+    font-size: 0.9em;
+}
+
 h1 {
-    font-family: abril fatface;
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.75em;
     text-align: center;
+}
+
+nav {
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;    
 }
 
 nav ul {
@@ -36,7 +47,8 @@ nav ul {
     justify-content: space-around;
     flex-wrap: nowrap;
     align-content: center;
-    padding-inline-start: 0px;
+    padding-inline-start: 0px; 
+    
 }
 
 .ul-li a {
@@ -45,25 +57,27 @@ nav ul {
 }
 
 h2 {
-    font-family: abril fatface;
-    font-style: normal;
+    font-family: Abril Fatface;
     font-weight: 500;
     font-size: 1.5em;
 }
 
 h4 {
-    font-family: abril fatface; 
+    font-family: Abril Fatface; 
 }
 
 h5 {
-    font-family: abril fatface;
-    font-style: normal;
+    font-family: Abril Fatface;
     font-weight: 500;
     color: #ee3232;
 }
 
 p {
-    font-family: roboto slab;
-    font-style: normal;
-    font-weight: 400;
+    font-family:#dd3232;
+    font-size: 14.5px;
+    text-align: justify
+}
+
+.laptop-img {
+    
 }
