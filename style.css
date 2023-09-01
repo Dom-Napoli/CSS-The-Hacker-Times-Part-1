@@ -120,6 +120,8 @@ p {
     text-align: left;
 }
 
+/*bonus articles | grid & flex for style*/
+
 div .grid-container {
     display: grid;
     grid-template-areas: section;
