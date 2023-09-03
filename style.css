@@ -5,7 +5,7 @@
 
 body {
     background: #eee;
-    font-family: 'Source sans Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     font-weight: 200;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ nav li {
     padding: 0 8px; 
 }
 
-/*nav a stayling*/
+/*nav a styling*/
 nav a {
     text-decoration: none;
     color: #777; 
@@ -151,3 +151,33 @@ div .grid-container {
   margin: auto 27% auto 27%;
   padding: 5px 0 5px 0;
 }
+
+footer {
+    bottom: 0;
+position: sticky;
+width: 100%;
+background: darkgray;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 5px;
+color:black
+}
+
+footer .hacker-times {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.address {
+    font-style: oblique;
+    font-weight: 400;
+}
+
+.phone {
+    font-weight: 700;
+}
+  
+a {
+    font-weight: 700;
+}
+
