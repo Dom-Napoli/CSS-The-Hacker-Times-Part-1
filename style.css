@@ -152,32 +152,43 @@ div .grid-container {
   padding: 5px 0 5px 0;
 }
 
-footer {
-    bottom: 0;
-position: sticky;
-width: 100%;
-background: darkgray;
-text-align: center;
-margin-top: 10px;
-margin-bottom: 5px;
-color:black
+div .sandiego {
+        width: 100%;
 }
 
-footer .hacker-times {
+footer {
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    position: sticky;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:black;
+    border: 3px solid darkgray;
+}
+
+.hacker-times {
     font-size: 1.5em;
     font-weight: 700;
+    text-align: center;
 }
 
 .address {
     font-style: oblique;
     font-weight: 400;
+    text-align: center;
 }
 
 .phone {
     font-weight: 700;
+    text-align: center;
 }
-  
-a {
+
+.website {
     font-weight: 700;
+    text-align: center;
 }
+
+
+
 
